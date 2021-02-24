@@ -2,7 +2,7 @@ class ApiService {
 
     constructor() {
         this.url = 'https://todo-api.coderslab.pl'
-        this.apikey = "3a7c0687-09ed-4ccf-bbda-1f04ea08230b"; // Wasz api-key
+        this.apikey = "3a7c0687-09ed-4ccf-bbda-1f04ea08230b";
     }
 
     getTasks(successCallbackFn, errorCallbackFn) {
